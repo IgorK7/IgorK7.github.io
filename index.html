@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Igor Kuznetsov</title>
+  <meta name="description" content="Igor Kuznetsov, PhD candidate in Finance at London Business School. Research in empirical asset pricing, behavioural finance and machine learning.">
+  <meta name="author" content="Igor Kuznetsov">
+  <meta property="og:title" content="Igor Kuznetsov">
+  <meta property="og:description" content="Igor Kuznetsov, PhD candidate in Finance at London Business School. Research in empirical asset pricing, behavioural finance and machine learning.">
+  <meta property="og:type" content="website">
+  <link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+<nav class="navbar navbar-expand-md fixed-top bg-dark" data-bs-theme="dark" id="topbar">
+  <div class="container" style="max-width:1040px">
+    <a class="navbar-brand" href="#home">Igor Kuznetsov</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#mainNav"
+            aria-controls="mainNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="mainNav">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item"><a class="nav-link" href="#home">Home</a></li>
+        <li class="nav-item"><a class="nav-link" href="#research">Research</a></li>
+        <li class="nav-item"><a class="nav-link" href="https://drive.google.com/uc?export=download&amp;id=11vlHpIWWu9cGqN1NqvjCs7i7KmOQ1hYw" title="Download CV (PDF)">CV<span class="visually-hidden"> (PDF download)</span></a></li>
+        <li class="nav-item"><a class="nav-link" href="#teaching">Teaching</a></li>
+        <li class="nav-item"><a class="nav-link" href="#contact">Contact</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+<main class="container">
+
+  <!-- Home -->
+  <section class="site-section" id="home" aria-labelledby="home-title">
+    <div class="row g-4 g-md-5 align-items-start">
+      <div class="col-md-8">
+        <h1 class="mb-1" id="home-title">Igor Kuznetsov</h1>
+        <p class="lead mb-4">PhD Candidate in Finance<br>London Business School</p>
+
+        <p>
+          I study how investors interpret information and form expectations, how these expectations relate
+          to their allocation of capital, and how individual decisions aggregate into asset prices.
+        </p>
+        <p class="fw-semibold">I am on the 2026&ndash;27 academic job market.</p>
+        <p>
+          <strong>Research interests:</strong>
+          Empirical Asset Pricing, Behavioural Finance, Machine Learning
+        </p>
+
+        <p class="mt-4 mb-0">
+          <a class="btn btn-primary me-2 mb-2" href="https://drive.google.com/uc?export=download&amp;id=11vlHpIWWu9cGqN1NqvjCs7i7KmOQ1hYw">Curriculum vitae (PDF)</a>
+          <a class="btn btn-outline-primary me-2 mb-2" href="#research">Research</a>
+        </p>
+      </div>
+      <div class="col-md-4 order-first order-md-last text-center text-md-end">
+        <img class="profile-photo" src="assets/img/profile.jpg" width="450" height="600" alt="Portrait of Igor Kuznetsov">
+      </div>
+    </div>
+  </section>
+
+  <!-- Research -->
+  <section class="site-section" id="research" aria-labelledby="research-title">
+    <h2 class="section-title" id="research-title">Research</h2>
+
+    <h3 class="subsection">Job Market Paper</h3>
+    <article class="paper jmp" id="jmp">
+      <h4>There Is Something in the Air<span class="subtitle">Recovering Expectations from Public Interviews with Mutual Fund Managers</span></h4>
+      <p class="meta">Solo authored</p>
+      <p class="abstract">
+        I measure individual U.S. mutual fund managers' expectations from television interviews during
+        2012&ndash;2025 and link them to the portfolios they manage. Within managers, greater stated optimism
+        about the U.S. stock market is associated with increased market exposure through trading.
+        Allocation funds shift toward U.S. equities, while equity funds shift toward higher-beta stocks.
+        Funds also increase positions in industries and stocks their managers discuss favorably, with stock
+        purchases continuing after the interview. Managers extrapolate past returns at every forecast
+        horizon, yet the difference between long- and short-horizon sentiment is countercyclical and
+        predicts subsequent increases in portfolio beta. Managers differ persistently in their optimism and
+        responses to market conditions, and these differences are reflected in portfolio adjustments.
+        Public interviews thus reveal subjective beliefs that correspond to how professional investors
+        allocate capital.
+      </p>
+      <p class="links mb-0">
+        <a class="btn btn-primary btn-sm" href="https://drive.google.com/file/d/1VZRmYk2ndPUd8OIEXBd7T08PsMtv0YIO/view?usp=drive_link">Paper (PDF)</a>
+      </p>
+    </article>
+
+    <h3 class="subsection">Working Papers and Research in Progress</h3>
+
+    <article class="paper" id="agent-based-trading">
+      <h4>Agent-Based Trading and Price Discovery</h4>
+      <p class="meta">with Svetlana Bryzgalova and Vicente Garcia</p>
+      <p class="abstract">
+        Equilibrium asset-pricing theory predicts that risk premia compensate investors for exposure
+        to aggregate risk, yet how individual trading decisions bring prices into line with this
+        prediction remains an open question. Field tests are difficult to interpret because the
+        relevant beliefs, payoff distributions and market portfolio are only imperfectly observed.
+        This paper investigates this question in controlled markets populated by LLM traders. The
+        economy's payoffs, state probabilities and aggregate endowments are specified by design,
+        allowing prices and allocations to be assessed against theoretical benchmarks. Agents
+        observe their own portfolios and market activity but are not given aggregate endowments,
+        allowing an examination of whether equilibrium pricing emerges through their interaction.
+        The experiments vary agents' risk attitudes and trading approaches while holding payoffs and
+        market rules fixed to examine how differences in behaviour shape pricing and risk sharing.
+        The markets generate positive risk premia and patterns consistent with risk sharing, while
+        exhibiting departures from the predicted ordering of state prices and from the CAPM
+        prediction that the market portfolio is mean&ndash;variance efficient. The results
+        distinguish the emergence of compensation for risk from the stronger requirement that risk
+        be priced across assets as equilibrium theory predicts.
+      </p>
+    </article>
+
+    <article class="paper" id="biased-information">
+      <h4>Do Market Prices Reflect Biased Information? Evidence from Voluntary Corporate Disclosures</h4>
+      <p class="meta">with Marco Grotteria and Roberto G&oacute;mez-Cram</p>
+      <p class="abstract">
+        This paper investigates how financial markets assimilate potentially biased information into
+        asset prices, particularly in the context of managerial announcements and subsequent analyst
+        forecasts. By deploying a high-frequency identification strategy, the study empirically
+        demonstrates that market prices do not entirely reflect the quantitative information
+        provided by managers, even when it holds value-relevance. The analysis reveals that stock
+        prices react similarly to initial managerial forecasts and subsequent, albeit slightly more
+        optimistic, analyst repetitions. This persistence in market movement suggests that
+        investors' reactions are not merely a product of news novelty but rather a heterogeneous
+        interpretation of managerial bias. The paper challenges the gradual information-diffusion
+        hypothesis, instead proposing a model where investor disagreement on managerial bias
+        predictions leads to positive autocorrelation in stock returns. These findings contribute to
+        the discourse on market efficiency, suggesting that the transparency of bias, rather than
+        its mere presence, is instrumental in shaping market reactions to new information.
+      </p>
+    </article>
+
+    <article class="paper" id="symbolic-regressions">
+      <h4>Symbolic Regressions: Opening the Black Box of Equity Premium Predictions</h4>
+      <p class="abstract">
+        Predicting the aggregate equity premium remains a central challenge in asset pricing because
+        standard financial predictors often fail out of sample. I use deep symbolic regression to
+        identify parsimonious nonlinear models linking excess market returns to prices, dividends,
+        earnings and risk measures. Simulations show that the method can recover the true functional
+        form of the data-generating process with sufficient data and appropriate regularization. In
+        monthly U.S. data from 1927 to 2021, a parsimonious model produces lower out-of-sample
+        forecast errors than linear and tuned random-forest benchmarks. Greater complexity improves
+        in-sample fit but generally weakens forecasts. Performance also varies across economic
+        episodes: some models perform well during the Great Recession but poorly during the
+        pandemic.
+      </p>
+      <p class="links mb-0">
+        <a href="https://drive.google.com/file/d/1q9P8JHRK3tGlMMIUoBQXcnGcsw87vv-F/view?usp=sharing">PDF</a>
+      </p>
+    </article>
+  </section>
+
+  <!-- Teaching -->
+  <section class="site-section" id="teaching" aria-labelledby="teaching-title">
+    <h2 class="section-title" id="teaching-title">Teaching</h2>
+
+    <h3 class="subsection">London Business School</h3>
+    <div class="table-responsive">
+      <table class="table align-middle mb-0">
+        <thead>
+          <tr><th scope="col">Course</th><th scope="col">Teaching assistant to</th><th scope="col">Years</th></tr>
+        </thead>
+        <tbody>
+          <tr class="table-light"><th colspan="3" scope="colgroup">PhD</th></tr>
+          <tr><td>Empirical Asset Pricing</td><td>Svetlana Bryzgalova</td><td class="text-nowrap">2022&ndash;present</td></tr>
+          <tr class="table-light"><th colspan="3" scope="colgroup">MBA and Masters</th></tr>
+          <tr><td>Asset Management</td><td>Svetlana Bryzgalova</td><td class="text-nowrap">2022&ndash;present</td></tr>
+          <tr><td>Capital Structure</td><td>Christopher Hennessy</td><td class="text-nowrap">2023&ndash;present</td></tr>
+          <tr><td>Distressed Investing</td><td>Christopher Hennessy</td><td class="text-nowrap">2023&ndash;present</td></tr>
+          <tr><td>Finance I</td><td>Alex Edmans</td><td class="text-nowrap">2024</td></tr>
+          <tr><td>Investment Fundamentals</td><td>Roberto G&oacute;mez-Cram</td><td class="text-nowrap">2024</td></tr>
+          <tr><td>Investments</td><td>Marco Grotteria</td><td class="text-nowrap">2023</td></tr>
+        </tbody>
+      </table>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section class="site-section" id="contact" aria-labelledby="contact-title">
+    <h2 class="section-title" id="contact-title">Contact</h2>
+    <dl class="row contact mb-0">
+      <dt class="col-sm-3 col-lg-2">Email</dt>
+      <dd class="col-sm-9 col-lg-10"><a href="mailto:ikuznetsov@london.edu">ikuznetsov@london.edu</a></dd>
+      <dt class="col-sm-3 col-lg-2">Address</dt>
+      <dd class="col-sm-9 col-lg-10">London Business School<br>Regent's Park, London NW1 4SA<br>United Kingdom</dd>
+      <dt class="col-sm-3 col-lg-2">Links</dt>
+      <dd class="col-sm-9 col-lg-10">
+        <a href="https://www.london.edu/phd/profiles/igor-kuznetsov">LBS profile</a> &middot;
+        <a href="https://www.linkedin.com/in/igor-kuznetsov-8a039733/">LinkedIn</a> &middot;
+        <a href="https://github.com/IgorK7">GitHub</a>
+      </dd>
+    </dl>
+  </section>
+</main>
+<footer class="container py-4" style="max-width:1040px">
+  <div class="d-flex flex-wrap justify-content-between gap-2">
+    <span>&copy; 2026 Igor Kuznetsov</span>
+    <span>Last updated: November 2026</span>
+  </div>
+</footer>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous"></script>
+<script>
+  // One-page navigation. The top bar is fixed; its links scroll to the sections (smooth scrolling and
+  // the offset for the bar come from the stylesheet). This script closes the phone menu after a tap
+  // and highlights the link of the section in view.
+  (function () {
+    var root = document.documentElement;
+    var menu = document.getElementById('mainNav');
+    var links = Array.prototype.slice.call(menu.querySelectorAll('.nav-link[href^="#"]'));   // section links (CV is a file)
+    var sections = links.map(function (a) { return document.querySelector(a.getAttribute('href')); });
+    var held = false, timer = null;
+
+    function mark(i) {
+      links.forEach(function (a, j) {
+        a.classList.toggle('active', j === i);
+        if (j === i) a.setAttribute('aria-current', 'location'); else a.removeAttribute('aria-current');
+      });
+    }
+    // The section in view is the last one whose top has passed a line a quarter of the way down
+    // the screen; at the very bottom of the page it is the last section.
+    function spy() {
+      var line = parseFloat(getComputedStyle(root).scrollPaddingTop) + window.innerHeight * 0.25;
+      var current = 0;
+      sections.forEach(function (s, i) { if (s.getBoundingClientRect().top <= line) current = i; });
+      if (window.innerHeight + window.scrollY >= root.scrollHeight - 2) current = sections.length - 1;
+      mark(current);
+    }
+    // After a click, keep the clicked link highlighted until the scroll it started has ended, so a
+    // section that cannot reach the top of the screen is not shown as the one below it.
+    function hold() {
+      held = true;
+      clearTimeout(timer);
+      timer = setTimeout(function () { held = false; }, 200);
+    }
+
+    links.forEach(function (a, i) {
+      a.addEventListener('click', function () { mark(i); hold(); });
+    });
+    Array.prototype.forEach.call(document.querySelectorAll('#topbar .navbar-brand, #topbar .nav-link'), function (a) {
+      a.addEventListener('click', function () {
+        if (menu.classList.contains('show')) bootstrap.Collapse.getOrCreateInstance(menu).hide();
+      });
+    });
+    window.addEventListener('scroll', function () { if (held) hold(); else spy(); }, { passive: true });
+    window.addEventListener('resize', function () { if (!held) spy(); });
+
+    var start = links.map(function (a) { return a.getAttribute('href'); }).indexOf(location.hash);
+    if (start >= 0) { mark(start); hold(); } else { spy(); }
+  })();
+</script>
+</body>
+</html>
