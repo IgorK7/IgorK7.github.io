@@ -50,6 +50,12 @@ h3.subsection {
 
 .profile-photo { width: 100%; max-width: 280px; height: auto; border-radius: .5rem; }
 
+/* Home: name and title, then the LBS logo after a thin rule; the logo links to the LBS profile */
+.id-block { display: flex; align-items: center; gap: 1.5rem; margin-bottom: 1.5rem; }
+.id-text { min-width: 0; }
+.id-logo { border-left: 1px solid #ced4da; padding-left: 1.5rem; }
+.id-logo img { display: block; width: 96px; height: 96px; }
+
 .paper h4 { font-size: 1.08rem; font-weight: 600; margin-bottom: .2rem; }
 .paper .meta { color: #5c636a; margin-bottom: .25rem; }
 .paper .links a { margin-right: .9rem; }
@@ -70,4 +76,9 @@ footer { color: #6c757d; font-size: .9rem; border-top: 1px solid var(--ik-rule);
 
 @media (max-width: 767.98px) {
   .profile-photo { max-width: 220px; margin-bottom: 1.5rem; }
+}
+@media (max-width: 575.98px) {
+  .id-block { gap: 1rem; }
+  .id-logo { padding-left: 1rem; }
+  .id-logo img { width: 72px; height: 72px; }
 }
