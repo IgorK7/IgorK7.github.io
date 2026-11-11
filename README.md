@@ -25,6 +25,8 @@ The PDFs live on Google Drive, each shared as "Anyone with the link" (Viewer).
   `https://drive.google.com/uc?export=download&id=<file id>`, so a click saves the PDF.
   The saved file takes the Drive file's name.
 - Paper links open Drive's viewer: `https://drive.google.com/file/d/<file id>/view`.
+- SSRN links open the paper's SSRN page, `https://papers.ssrn.com/sol3/papers.cfm?abstract_id=<id>`.
+  A revision uploaded to SSRN keeps that address.
 - To update a PDF without changing its link, replace the file in Drive (Manage versions, or
   overwrite it in a synced folder). Uploading a new copy gives it a new id, which then has to
   replace the old one in `index.html`.
@@ -32,7 +34,7 @@ The PDFs live on Google Drive, each shared as "Anyone with the link" (Viewer).
 ## Adding a paper
 
 Copy an `<article class="paper">` block in the Research section of `index.html`, give it a new `id`,
-and put the PDF link in a `<p class="links mb-0">` line under the abstract.
+and put its links (SSRN page, PDF) in a `<p class="links mb-0">` line under the abstract.
 
 ## Custom domain
 
